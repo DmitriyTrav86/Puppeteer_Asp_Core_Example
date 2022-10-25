@@ -1,0 +1,1684 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "cef.sdk/106.0.29": {
+        "type": "package",
+        "build": {
+          "build/cef.sdk.props": {}
+        }
+      },
+      "Cronos/0.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Cronos.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Cronos.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.AspNetCore.WebUtilities/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http.Headers": "2.2.0",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Logging/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.2",
+          "Microsoft.Extensions.Options": "2.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.1",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/6.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "6.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/6.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/6.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "6.10.0",
+          "Microsoft.IdentityModel.Tokens": "6.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "6.10.0",
+          "System.IdentityModel.Tokens.Jwt": "6.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/6.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.IdentityModel.Logging": "6.10.0",
+          "System.Security.Cryptography.Cng": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Net.Http.Headers/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0",
+          "System.Buffers": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "PuppeteerSharp/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.WebUtilities": "2.2.0",
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "Microsoft.Extensions.Logging": "2.0.2",
+          "Newtonsoft.Json": "13.0.1",
+          "SharpZipLib": "1.3.3",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PuppeteerSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/PuppeteerSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpZipLib/1.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Buffers/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/6.10.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "6.10.0",
+          "Microsoft.IdentityModel.Tokens": "6.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Memory/4.5.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Security.Cryptography.Cng/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cef.sdk/106.0.29": {
+      "sha512": "XUm/r4FVNvIcWoD8mk3SobqMHTo8xLEIfI4Wr+7k5Q0LTG8M32gv6BVHhdZrElgcLrinBel8HxwB07KB5Q9IsA==",
+      "type": "package",
+      "path": "cef.sdk/106.0.29",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CEF/License.txt",
+        "CEF/arm64/debug/VS2019/libcef_dll_wrapper.lib",
+        "CEF/arm64/debug/VS2019/libcef_dll_wrapper.pdb",
+        "CEF/arm64/debug/libcef.lib",
+        "CEF/arm64/release/VS2019/libcef_dll_wrapper.lib",
+        "CEF/arm64/release/VS2019/libcef_dll_wrapper.pdb",
+        "CEF/arm64/release/libcef.lib",
+        "CEF/include/base/cef_atomic_flag.h",
+        "CEF/include/base/cef_atomic_ref_count.h",
+        "CEF/include/base/cef_auto_reset.h",
+        "CEF/include/base/cef_basictypes.h",
+        "CEF/include/base/cef_bind.h",
+        "CEF/include/base/cef_build.h",
+        "CEF/include/base/cef_callback.h",
+        "CEF/include/base/cef_callback_forward.h",
+        "CEF/include/base/cef_callback_helpers.h",
+        "CEF/include/base/cef_callback_list.h",
+        "CEF/include/base/cef_cancelable_callback.h",
+        "CEF/include/base/cef_compiler_specific.h",
+        "CEF/include/base/cef_lock.h",
+        "CEF/include/base/cef_logging.h",
+        "CEF/include/base/cef_macros.h",
+        "CEF/include/base/cef_platform_thread.h",
+        "CEF/include/base/cef_ptr_util.h",
+        "CEF/include/base/cef_ref_counted.h",
+        "CEF/include/base/cef_scoped_refptr.h",
+        "CEF/include/base/cef_template_util.h",
+        "CEF/include/base/cef_thread_checker.h",
+        "CEF/include/base/cef_trace_event.h",
+        "CEF/include/base/cef_tuple.h",
+        "CEF/include/base/cef_weak_ptr.h",
+        "CEF/include/base/internal/README-TRANSFER.txt",
+        "CEF/include/base/internal/cef_bind_internal.h",
+        "CEF/include/base/internal/cef_callback_internal.h",
+        "CEF/include/base/internal/cef_lock_impl.h",
+        "CEF/include/base/internal/cef_net_error_list.h",
+        "CEF/include/base/internal/cef_raw_scoped_refptr_mismatch_checker.h",
+        "CEF/include/base/internal/cef_scoped_policy.h",
+        "CEF/include/base/internal/cef_thread_checker_impl.h",
+        "CEF/include/capi/cef_accessibility_handler_capi.h",
+        "CEF/include/capi/cef_app_capi.h",
+        "CEF/include/capi/cef_audio_handler_capi.h",
+        "CEF/include/capi/cef_auth_callback_capi.h",
+        "CEF/include/capi/cef_base_capi.h",
+        "CEF/include/capi/cef_browser_capi.h",
+        "CEF/include/capi/cef_browser_process_handler_capi.h",
+        "CEF/include/capi/cef_callback_capi.h",
+        "CEF/include/capi/cef_client_capi.h",
+        "CEF/include/capi/cef_command_handler_capi.h",
+        "CEF/include/capi/cef_command_line_capi.h",
+        "CEF/include/capi/cef_context_menu_handler_capi.h",
+        "CEF/include/capi/cef_cookie_capi.h",
+        "CEF/include/capi/cef_crash_util_capi.h",
+        "CEF/include/capi/cef_devtools_message_observer_capi.h",
+        "CEF/include/capi/cef_dialog_handler_capi.h",
+        "CEF/include/capi/cef_display_handler_capi.h",
+        "CEF/include/capi/cef_dom_capi.h",
+        "CEF/include/capi/cef_download_handler_capi.h",
+        "CEF/include/capi/cef_download_item_capi.h",
+        "CEF/include/capi/cef_drag_data_capi.h",
+        "CEF/include/capi/cef_drag_handler_capi.h",
+        "CEF/include/capi/cef_extension_capi.h",
+        "CEF/include/capi/cef_extension_handler_capi.h",
+        "CEF/include/capi/cef_file_util_capi.h",
+        "CEF/include/capi/cef_find_handler_capi.h",
+        "CEF/include/capi/cef_focus_handler_capi.h",
+        "CEF/include/capi/cef_frame_capi.h",
+        "CEF/include/capi/cef_frame_handler_capi.h",
+        "CEF/include/capi/cef_i18n_util_capi.h",
+        "CEF/include/capi/cef_image_capi.h",
+        "CEF/include/capi/cef_jsdialog_handler_capi.h",
+        "CEF/include/capi/cef_keyboard_handler_capi.h",
+        "CEF/include/capi/cef_life_span_handler_capi.h",
+        "CEF/include/capi/cef_load_handler_capi.h",
+        "CEF/include/capi/cef_media_router_capi.h",
+        "CEF/include/capi/cef_menu_model_capi.h",
+        "CEF/include/capi/cef_menu_model_delegate_capi.h",
+        "CEF/include/capi/cef_navigation_entry_capi.h",
+        "CEF/include/capi/cef_origin_whitelist_capi.h",
+        "CEF/include/capi/cef_parser_capi.h",
+        "CEF/include/capi/cef_path_util_capi.h",
+        "CEF/include/capi/cef_permission_handler_capi.h",
+        "CEF/include/capi/cef_print_handler_capi.h",
+        "CEF/include/capi/cef_print_settings_capi.h",
+        "CEF/include/capi/cef_process_message_capi.h",
+        "CEF/include/capi/cef_process_util_capi.h",
+        "CEF/include/capi/cef_registration_capi.h",
+        "CEF/include/capi/cef_render_handler_capi.h",
+        "CEF/include/capi/cef_render_process_handler_capi.h",
+        "CEF/include/capi/cef_request_capi.h",
+        "CEF/include/capi/cef_request_context_capi.h",
+        "CEF/include/capi/cef_request_context_handler_capi.h",
+        "CEF/include/capi/cef_request_handler_capi.h",
+        "CEF/include/capi/cef_resource_bundle_capi.h",
+        "CEF/include/capi/cef_resource_bundle_handler_capi.h",
+        "CEF/include/capi/cef_resource_handler_capi.h",
+        "CEF/include/capi/cef_resource_request_handler_capi.h",
+        "CEF/include/capi/cef_response_capi.h",
+        "CEF/include/capi/cef_response_filter_capi.h",
+        "CEF/include/capi/cef_scheme_capi.h",
+        "CEF/include/capi/cef_server_capi.h",
+        "CEF/include/capi/cef_shared_memory_region_capi.h",
+        "CEF/include/capi/cef_shared_process_message_builder_capi.h",
+        "CEF/include/capi/cef_ssl_info_capi.h",
+        "CEF/include/capi/cef_ssl_status_capi.h",
+        "CEF/include/capi/cef_stream_capi.h",
+        "CEF/include/capi/cef_string_visitor_capi.h",
+        "CEF/include/capi/cef_task_capi.h",
+        "CEF/include/capi/cef_thread_capi.h",
+        "CEF/include/capi/cef_trace_capi.h",
+        "CEF/include/capi/cef_urlrequest_capi.h",
+        "CEF/include/capi/cef_v8_capi.h",
+        "CEF/include/capi/cef_values_capi.h",
+        "CEF/include/capi/cef_waitable_event_capi.h",
+        "CEF/include/capi/cef_x509_certificate_capi.h",
+        "CEF/include/capi/cef_xml_reader_capi.h",
+        "CEF/include/capi/cef_zip_reader_capi.h",
+        "CEF/include/capi/test/cef_test_helpers_capi.h",
+        "CEF/include/capi/test/cef_test_server_capi.h",
+        "CEF/include/capi/test/cef_translator_test_capi.h",
+        "CEF/include/capi/views/cef_box_layout_capi.h",
+        "CEF/include/capi/views/cef_browser_view_capi.h",
+        "CEF/include/capi/views/cef_browser_view_delegate_capi.h",
+        "CEF/include/capi/views/cef_button_capi.h",
+        "CEF/include/capi/views/cef_button_delegate_capi.h",
+        "CEF/include/capi/views/cef_display_capi.h",
+        "CEF/include/capi/views/cef_fill_layout_capi.h",
+        "CEF/include/capi/views/cef_label_button_capi.h",
+        "CEF/include/capi/views/cef_layout_capi.h",
+        "CEF/include/capi/views/cef_menu_button_capi.h",
+        "CEF/include/capi/views/cef_menu_button_delegate_capi.h",
+        "CEF/include/capi/views/cef_overlay_controller_capi.h",
+        "CEF/include/capi/views/cef_panel_capi.h",
+        "CEF/include/capi/views/cef_panel_delegate_capi.h",
+        "CEF/include/capi/views/cef_scroll_view_capi.h",
+        "CEF/include/capi/views/cef_textfield_capi.h",
+        "CEF/include/capi/views/cef_textfield_delegate_capi.h",
+        "CEF/include/capi/views/cef_view_capi.h",
+        "CEF/include/capi/views/cef_view_delegate_capi.h",
+        "CEF/include/capi/views/cef_window_capi.h",
+        "CEF/include/capi/views/cef_window_delegate_capi.h",
+        "CEF/include/cef_accessibility_handler.h",
+        "CEF/include/cef_api_hash.h",
+        "CEF/include/cef_app.h",
+        "CEF/include/cef_audio_handler.h",
+        "CEF/include/cef_auth_callback.h",
+        "CEF/include/cef_base.h",
+        "CEF/include/cef_browser.h",
+        "CEF/include/cef_browser_process_handler.h",
+        "CEF/include/cef_callback.h",
+        "CEF/include/cef_client.h",
+        "CEF/include/cef_command_handler.h",
+        "CEF/include/cef_command_ids.h",
+        "CEF/include/cef_command_line.h",
+        "CEF/include/cef_config.h",
+        "CEF/include/cef_context_menu_handler.h",
+        "CEF/include/cef_cookie.h",
+        "CEF/include/cef_crash_util.h",
+        "CEF/include/cef_devtools_message_observer.h",
+        "CEF/include/cef_dialog_handler.h",
+        "CEF/include/cef_display_handler.h",
+        "CEF/include/cef_dom.h",
+        "CEF/include/cef_download_handler.h",
+        "CEF/include/cef_download_item.h",
+        "CEF/include/cef_drag_data.h",
+        "CEF/include/cef_drag_handler.h",
+        "CEF/include/cef_extension.h",
+        "CEF/include/cef_extension_handler.h",
+        "CEF/include/cef_file_util.h",
+        "CEF/include/cef_find_handler.h",
+        "CEF/include/cef_focus_handler.h",
+        "CEF/include/cef_frame.h",
+        "CEF/include/cef_frame_handler.h",
+        "CEF/include/cef_i18n_util.h",
+        "CEF/include/cef_image.h",
+        "CEF/include/cef_jsdialog_handler.h",
+        "CEF/include/cef_keyboard_handler.h",
+        "CEF/include/cef_life_span_handler.h",
+        "CEF/include/cef_load_handler.h",
+        "CEF/include/cef_media_router.h",
+        "CEF/include/cef_menu_model.h",
+        "CEF/include/cef_menu_model_delegate.h",
+        "CEF/include/cef_navigation_entry.h",
+        "CEF/include/cef_origin_whitelist.h",
+        "CEF/include/cef_pack_resources.h",
+        "CEF/include/cef_pack_strings.h",
+        "CEF/include/cef_parser.h",
+        "CEF/include/cef_path_util.h",
+        "CEF/include/cef_permission_handler.h",
+        "CEF/include/cef_print_handler.h",
+        "CEF/include/cef_print_settings.h",
+        "CEF/include/cef_process_message.h",
+        "CEF/include/cef_process_util.h",
+        "CEF/include/cef_registration.h",
+        "CEF/include/cef_render_handler.h",
+        "CEF/include/cef_render_process_handler.h",
+        "CEF/include/cef_request.h",
+        "CEF/include/cef_request_context.h",
+        "CEF/include/cef_request_context_handler.h",
+        "CEF/include/cef_request_handler.h",
+        "CEF/include/cef_resource_bundle.h",
+        "CEF/include/cef_resource_bundle_handler.h",
+        "CEF/include/cef_resource_handler.h",
+        "CEF/include/cef_resource_request_handler.h",
+        "CEF/include/cef_response.h",
+        "CEF/include/cef_response_filter.h",
+        "CEF/include/cef_sandbox_win.h",
+        "CEF/include/cef_scheme.h",
+        "CEF/include/cef_server.h",
+        "CEF/include/cef_shared_memory_region.h",
+        "CEF/include/cef_shared_process_message_builder.h",
+        "CEF/include/cef_ssl_info.h",
+        "CEF/include/cef_ssl_status.h",
+        "CEF/include/cef_stream.h",
+        "CEF/include/cef_string_visitor.h",
+        "CEF/include/cef_task.h",
+        "CEF/include/cef_thread.h",
+        "CEF/include/cef_trace.h",
+        "CEF/include/cef_urlrequest.h",
+        "CEF/include/cef_v8.h",
+        "CEF/include/cef_values.h",
+        "CEF/include/cef_version.h",
+        "CEF/include/cef_waitable_event.h",
+        "CEF/include/cef_x509_certificate.h",
+        "CEF/include/cef_xml_reader.h",
+        "CEF/include/cef_zip_reader.h",
+        "CEF/include/include/base/cef_atomic_flag.h",
+        "CEF/include/include/base/cef_atomic_ref_count.h",
+        "CEF/include/include/base/cef_auto_reset.h",
+        "CEF/include/include/base/cef_basictypes.h",
+        "CEF/include/include/base/cef_bind.h",
+        "CEF/include/include/base/cef_build.h",
+        "CEF/include/include/base/cef_callback.h",
+        "CEF/include/include/base/cef_callback_forward.h",
+        "CEF/include/include/base/cef_callback_helpers.h",
+        "CEF/include/include/base/cef_callback_list.h",
+        "CEF/include/include/base/cef_cancelable_callback.h",
+        "CEF/include/include/base/cef_compiler_specific.h",
+        "CEF/include/include/base/cef_lock.h",
+        "CEF/include/include/base/cef_logging.h",
+        "CEF/include/include/base/cef_macros.h",
+        "CEF/include/include/base/cef_platform_thread.h",
+        "CEF/include/include/base/cef_ptr_util.h",
+        "CEF/include/include/base/cef_ref_counted.h",
+        "CEF/include/include/base/cef_scoped_refptr.h",
+        "CEF/include/include/base/cef_template_util.h",
+        "CEF/include/include/base/cef_thread_checker.h",
+        "CEF/include/include/base/cef_trace_event.h",
+        "CEF/include/include/base/cef_tuple.h",
+        "CEF/include/include/base/cef_weak_ptr.h",
+        "CEF/include/include/base/internal/README-TRANSFER.txt",
+        "CEF/include/include/base/internal/cef_bind_internal.h",
+        "CEF/include/include/base/internal/cef_callback_internal.h",
+        "CEF/include/include/base/internal/cef_lock_impl.h",
+        "CEF/include/include/base/internal/cef_net_error_list.h",
+        "CEF/include/include/base/internal/cef_raw_scoped_refptr_mismatch_checker.h",
+        "CEF/include/include/base/internal/cef_scoped_policy.h",
+        "CEF/include/include/base/internal/cef_thread_checker_impl.h",
+        "CEF/include/include/capi/cef_accessibility_handler_capi.h",
+        "CEF/include/include/capi/cef_app_capi.h",
+        "CEF/include/include/capi/cef_audio_handler_capi.h",
+        "CEF/include/include/capi/cef_auth_callback_capi.h",
+        "CEF/include/include/capi/cef_base_capi.h",
+        "CEF/include/include/capi/cef_browser_capi.h",
+        "CEF/include/include/capi/cef_browser_process_handler_capi.h",
+        "CEF/include/include/capi/cef_callback_capi.h",
+        "CEF/include/include/capi/cef_client_capi.h",
+        "CEF/include/include/capi/cef_command_handler_capi.h",
+        "CEF/include/include/capi/cef_command_line_capi.h",
+        "CEF/include/include/capi/cef_context_menu_handler_capi.h",
+        "CEF/include/include/capi/cef_cookie_capi.h",
+        "CEF/include/include/capi/cef_crash_util_capi.h",
+        "CEF/include/include/capi/cef_devtools_message_observer_capi.h",
+        "CEF/include/include/capi/cef_dialog_handler_capi.h",
+        "CEF/include/include/capi/cef_display_handler_capi.h",
+        "CEF/include/include/capi/cef_dom_capi.h",
+        "CEF/include/include/capi/cef_download_handler_capi.h",
+        "CEF/include/include/capi/cef_download_item_capi.h",
+        "CEF/include/include/capi/cef_drag_data_capi.h",
+        "CEF/include/include/capi/cef_drag_handler_capi.h",
+        "CEF/include/include/capi/cef_extension_capi.h",
+        "CEF/include/include/capi/cef_extension_handler_capi.h",
+        "CEF/include/include/capi/cef_file_util_capi.h",
+        "CEF/include/include/capi/cef_find_handler_capi.h",
+        "CEF/include/include/capi/cef_focus_handler_capi.h",
+        "CEF/include/include/capi/cef_frame_capi.h",
+        "CEF/include/include/capi/cef_frame_handler_capi.h",
+        "CEF/include/include/capi/cef_i18n_util_capi.h",
+        "CEF/include/include/capi/cef_image_capi.h",
+        "CEF/include/include/capi/cef_jsdialog_handler_capi.h",
+        "CEF/include/include/capi/cef_keyboard_handler_capi.h",
+        "CEF/include/include/capi/cef_life_span_handler_capi.h",
+        "CEF/include/include/capi/cef_load_handler_capi.h",
+        "CEF/include/include/capi/cef_media_router_capi.h",
+        "CEF/include/include/capi/cef_menu_model_capi.h",
+        "CEF/include/include/capi/cef_menu_model_delegate_capi.h",
+        "CEF/include/include/capi/cef_navigation_entry_capi.h",
+        "CEF/include/include/capi/cef_origin_whitelist_capi.h",
+        "CEF/include/include/capi/cef_parser_capi.h",
+        "CEF/include/include/capi/cef_path_util_capi.h",
+        "CEF/include/include/capi/cef_permission_handler_capi.h",
+        "CEF/include/include/capi/cef_print_handler_capi.h",
+        "CEF/include/include/capi/cef_print_settings_capi.h",
+        "CEF/include/include/capi/cef_process_message_capi.h",
+        "CEF/include/include/capi/cef_process_util_capi.h",
+        "CEF/include/include/capi/cef_registration_capi.h",
+        "CEF/include/include/capi/cef_render_handler_capi.h",
+        "CEF/include/include/capi/cef_render_process_handler_capi.h",
+        "CEF/include/include/capi/cef_request_capi.h",
+        "CEF/include/include/capi/cef_request_context_capi.h",
+        "CEF/include/include/capi/cef_request_context_handler_capi.h",
+        "CEF/include/include/capi/cef_request_handler_capi.h",
+        "CEF/include/include/capi/cef_resource_bundle_capi.h",
+        "CEF/include/include/capi/cef_resource_bundle_handler_capi.h",
+        "CEF/include/include/capi/cef_resource_handler_capi.h",
+        "CEF/include/include/capi/cef_resource_request_handler_capi.h",
+        "CEF/include/include/capi/cef_response_capi.h",
+        "CEF/include/include/capi/cef_response_filter_capi.h",
+        "CEF/include/include/capi/cef_scheme_capi.h",
+        "CEF/include/include/capi/cef_server_capi.h",
+        "CEF/include/include/capi/cef_shared_memory_region_capi.h",
+        "CEF/include/include/capi/cef_shared_process_message_builder_capi.h",
+        "CEF/include/include/capi/cef_ssl_info_capi.h",
+        "CEF/include/include/capi/cef_ssl_status_capi.h",
+        "CEF/include/include/capi/cef_stream_capi.h",
+        "CEF/include/include/capi/cef_string_visitor_capi.h",
+        "CEF/include/include/capi/cef_task_capi.h",
+        "CEF/include/include/capi/cef_thread_capi.h",
+        "CEF/include/include/capi/cef_trace_capi.h",
+        "CEF/include/include/capi/cef_urlrequest_capi.h",
+        "CEF/include/include/capi/cef_v8_capi.h",
+        "CEF/include/include/capi/cef_values_capi.h",
+        "CEF/include/include/capi/cef_waitable_event_capi.h",
+        "CEF/include/include/capi/cef_x509_certificate_capi.h",
+        "CEF/include/include/capi/cef_xml_reader_capi.h",
+        "CEF/include/include/capi/cef_zip_reader_capi.h",
+        "CEF/include/include/capi/test/cef_test_helpers_capi.h",
+        "CEF/include/include/capi/test/cef_test_server_capi.h",
+        "CEF/include/include/capi/test/cef_translator_test_capi.h",
+        "CEF/include/include/capi/views/cef_box_layout_capi.h",
+        "CEF/include/include/capi/views/cef_browser_view_capi.h",
+        "CEF/include/include/capi/views/cef_browser_view_delegate_capi.h",
+        "CEF/include/include/capi/views/cef_button_capi.h",
+        "CEF/include/include/capi/views/cef_button_delegate_capi.h",
+        "CEF/include/include/capi/views/cef_display_capi.h",
+        "CEF/include/include/capi/views/cef_fill_layout_capi.h",
+        "CEF/include/include/capi/views/cef_label_button_capi.h",
+        "CEF/include/include/capi/views/cef_layout_capi.h",
+        "CEF/include/include/capi/views/cef_menu_button_capi.h",
+        "CEF/include/include/capi/views/cef_menu_button_delegate_capi.h",
+        "CEF/include/include/capi/views/cef_overlay_controller_capi.h",
+        "CEF/include/include/capi/views/cef_panel_capi.h",
+        "CEF/include/include/capi/views/cef_panel_delegate_capi.h",
+        "CEF/include/include/capi/views/cef_scroll_view_capi.h",
+        "CEF/include/include/capi/views/cef_textfield_capi.h",
+        "CEF/include/include/capi/views/cef_textfield_delegate_capi.h",
+        "CEF/include/include/capi/views/cef_view_capi.h",
+        "CEF/include/include/capi/views/cef_view_delegate_capi.h",
+        "CEF/include/include/capi/views/cef_window_capi.h",
+        "CEF/include/include/capi/views/cef_window_delegate_capi.h",
+        "CEF/include/include/cef_accessibility_handler.h",
+        "CEF/include/include/cef_api_hash.h",
+        "CEF/include/include/cef_app.h",
+        "CEF/include/include/cef_audio_handler.h",
+        "CEF/include/include/cef_auth_callback.h",
+        "CEF/include/include/cef_base.h",
+        "CEF/include/include/cef_browser.h",
+        "CEF/include/include/cef_browser_process_handler.h",
+        "CEF/include/include/cef_callback.h",
+        "CEF/include/include/cef_client.h",
+        "CEF/include/include/cef_command_handler.h",
+        "CEF/include/include/cef_command_ids.h",
+        "CEF/include/include/cef_command_line.h",
+        "CEF/include/include/cef_config.h",
+        "CEF/include/include/cef_context_menu_handler.h",
+        "CEF/include/include/cef_cookie.h",
+        "CEF/include/include/cef_crash_util.h",
+        "CEF/include/include/cef_devtools_message_observer.h",
+        "CEF/include/include/cef_dialog_handler.h",
+        "CEF/include/include/cef_display_handler.h",
+        "CEF/include/include/cef_dom.h",
+        "CEF/include/include/cef_download_handler.h",
+        "CEF/include/include/cef_download_item.h",
+        "CEF/include/include/cef_drag_data.h",
+        "CEF/include/include/cef_drag_handler.h",
+        "CEF/include/include/cef_extension.h",
+        "CEF/include/include/cef_extension_handler.h",
+        "CEF/include/include/cef_file_util.h",
+        "CEF/include/include/cef_find_handler.h",
+        "CEF/include/include/cef_focus_handler.h",
+        "CEF/include/include/cef_frame.h",
+        "CEF/include/include/cef_frame_handler.h",
+        "CEF/include/include/cef_i18n_util.h",
+        "CEF/include/include/cef_image.h",
+        "CEF/include/include/cef_jsdialog_handler.h",
+        "CEF/include/include/cef_keyboard_handler.h",
+        "CEF/include/include/cef_life_span_handler.h",
+        "CEF/include/include/cef_load_handler.h",
+        "CEF/include/include/cef_media_router.h",
+        "CEF/include/include/cef_menu_model.h",
+        "CEF/include/include/cef_menu_model_delegate.h",
+        "CEF/include/include/cef_navigation_entry.h",
+        "CEF/include/include/cef_origin_whitelist.h",
+        "CEF/include/include/cef_pack_resources.h",
+        "CEF/include/include/cef_pack_strings.h",
+        "CEF/include/include/cef_parser.h",
+        "CEF/include/include/cef_path_util.h",
+        "CEF/include/include/cef_permission_handler.h",
+        "CEF/include/include/cef_print_handler.h",
+        "CEF/include/include/cef_print_settings.h",
+        "CEF/include/include/cef_process_message.h",
+        "CEF/include/include/cef_process_util.h",
+        "CEF/include/include/cef_registration.h",
+        "CEF/include/include/cef_render_handler.h",
+        "CEF/include/include/cef_render_process_handler.h",
+        "CEF/include/include/cef_request.h",
+        "CEF/include/include/cef_request_context.h",
+        "CEF/include/include/cef_request_context_handler.h",
+        "CEF/include/include/cef_request_handler.h",
+        "CEF/include/include/cef_resource_bundle.h",
+        "CEF/include/include/cef_resource_bundle_handler.h",
+        "CEF/include/include/cef_resource_handler.h",
+        "CEF/include/include/cef_resource_request_handler.h",
+        "CEF/include/include/cef_response.h",
+        "CEF/include/include/cef_response_filter.h",
+        "CEF/include/include/cef_sandbox_win.h",
+        "CEF/include/include/cef_scheme.h",
+        "CEF/include/include/cef_server.h",
+        "CEF/include/include/cef_shared_memory_region.h",
+        "CEF/include/include/cef_shared_process_message_builder.h",
+        "CEF/include/include/cef_ssl_info.h",
+        "CEF/include/include/cef_ssl_status.h",
+        "CEF/include/include/cef_stream.h",
+        "CEF/include/include/cef_string_visitor.h",
+        "CEF/include/include/cef_task.h",
+        "CEF/include/include/cef_thread.h",
+        "CEF/include/include/cef_trace.h",
+        "CEF/include/include/cef_urlrequest.h",
+        "CEF/include/include/cef_v8.h",
+        "CEF/include/include/cef_values.h",
+        "CEF/include/include/cef_version.h",
+        "CEF/include/include/cef_waitable_event.h",
+        "CEF/include/include/cef_x509_certificate.h",
+        "CEF/include/include/cef_xml_reader.h",
+        "CEF/include/include/cef_zip_reader.h",
+        "CEF/include/include/internal/cef_export.h",
+        "CEF/include/include/internal/cef_logging_internal.h",
+        "CEF/include/include/internal/cef_ptr.h",
+        "CEF/include/include/internal/cef_string.h",
+        "CEF/include/include/internal/cef_string_list.h",
+        "CEF/include/include/internal/cef_string_map.h",
+        "CEF/include/include/internal/cef_string_multimap.h",
+        "CEF/include/include/internal/cef_string_types.h",
+        "CEF/include/include/internal/cef_string_wrappers.h",
+        "CEF/include/include/internal/cef_thread_internal.h",
+        "CEF/include/include/internal/cef_time.h",
+        "CEF/include/include/internal/cef_time_wrappers.h",
+        "CEF/include/include/internal/cef_trace_event_internal.h",
+        "CEF/include/include/internal/cef_types.h",
+        "CEF/include/include/internal/cef_types_geometry.h",
+        "CEF/include/include/internal/cef_types_win.h",
+        "CEF/include/include/internal/cef_types_wrappers.h",
+        "CEF/include/include/internal/cef_win.h",
+        "CEF/include/include/test/cef_test_helpers.h",
+        "CEF/include/include/test/cef_test_server.h",
+        "CEF/include/include/test/cef_translator_test.h",
+        "CEF/include/include/views/cef_box_layout.h",
+        "CEF/include/include/views/cef_browser_view.h",
+        "CEF/include/include/views/cef_browser_view_delegate.h",
+        "CEF/include/include/views/cef_button.h",
+        "CEF/include/include/views/cef_button_delegate.h",
+        "CEF/include/include/views/cef_display.h",
+        "CEF/include/include/views/cef_fill_layout.h",
+        "CEF/include/include/views/cef_label_button.h",
+        "CEF/include/include/views/cef_layout.h",
+        "CEF/include/include/views/cef_menu_button.h",
+        "CEF/include/include/views/cef_menu_button_delegate.h",
+        "CEF/include/include/views/cef_overlay_controller.h",
+        "CEF/include/include/views/cef_panel.h",
+        "CEF/include/include/views/cef_panel_delegate.h",
+        "CEF/include/include/views/cef_scroll_view.h",
+        "CEF/include/include/views/cef_textfield.h",
+        "CEF/include/include/views/cef_textfield_delegate.h",
+        "CEF/include/include/views/cef_view.h",
+        "CEF/include/include/views/cef_view_delegate.h",
+        "CEF/include/include/views/cef_window.h",
+        "CEF/include/include/views/cef_window_delegate.h",
+        "CEF/include/include/wrapper/cef_byte_read_handler.h",
+        "CEF/include/include/wrapper/cef_closure_task.h",
+        "CEF/include/include/wrapper/cef_helpers.h",
+        "CEF/include/include/wrapper/cef_message_router.h",
+        "CEF/include/include/wrapper/cef_resource_manager.h",
+        "CEF/include/include/wrapper/cef_scoped_temp_dir.h",
+        "CEF/include/include/wrapper/cef_stream_resource_handler.h",
+        "CEF/include/include/wrapper/cef_xml_object.h",
+        "CEF/include/include/wrapper/cef_zip_archive.h",
+        "CEF/include/internal/cef_export.h",
+        "CEF/include/internal/cef_logging_internal.h",
+        "CEF/include/internal/cef_ptr.h",
+        "CEF/include/internal/cef_string.h",
+        "CEF/include/internal/cef_string_list.h",
+        "CEF/include/internal/cef_string_map.h",
+        "CEF/include/internal/cef_string_multimap.h",
+        "CEF/include/internal/cef_string_types.h",
+        "CEF/include/internal/cef_string_wrappers.h",
+        "CEF/include/internal/cef_thread_internal.h",
+        "CEF/include/internal/cef_time.h",
+        "CEF/include/internal/cef_time_wrappers.h",
+        "CEF/include/internal/cef_trace_event_internal.h",
+        "CEF/include/internal/cef_types.h",
+        "CEF/include/internal/cef_types_geometry.h",
+        "CEF/include/internal/cef_types_win.h",
+        "CEF/include/internal/cef_types_wrappers.h",
+        "CEF/include/internal/cef_win.h",
+        "CEF/include/test/cef_test_helpers.h",
+        "CEF/include/test/cef_test_server.h",
+        "CEF/include/test/cef_translator_test.h",
+        "CEF/include/views/cef_box_layout.h",
+        "CEF/include/views/cef_browser_view.h",
+        "CEF/include/views/cef_browser_view_delegate.h",
+        "CEF/include/views/cef_button.h",
+        "CEF/include/views/cef_button_delegate.h",
+        "CEF/include/views/cef_display.h",
+        "CEF/include/views/cef_fill_layout.h",
+        "CEF/include/views/cef_label_button.h",
+        "CEF/include/views/cef_layout.h",
+        "CEF/include/views/cef_menu_button.h",
+        "CEF/include/views/cef_menu_button_delegate.h",
+        "CEF/include/views/cef_overlay_controller.h",
+        "CEF/include/views/cef_panel.h",
+        "CEF/include/views/cef_panel_delegate.h",
+        "CEF/include/views/cef_scroll_view.h",
+        "CEF/include/views/cef_textfield.h",
+        "CEF/include/views/cef_textfield_delegate.h",
+        "CEF/include/views/cef_view.h",
+        "CEF/include/views/cef_view_delegate.h",
+        "CEF/include/views/cef_window.h",
+        "CEF/include/views/cef_window_delegate.h",
+        "CEF/include/wrapper/cef_byte_read_handler.h",
+        "CEF/include/wrapper/cef_closure_task.h",
+        "CEF/include/wrapper/cef_helpers.h",
+        "CEF/include/wrapper/cef_message_router.h",
+        "CEF/include/wrapper/cef_resource_manager.h",
+        "CEF/include/wrapper/cef_scoped_temp_dir.h",
+        "CEF/include/wrapper/cef_stream_resource_handler.h",
+        "CEF/include/wrapper/cef_xml_object.h",
+        "CEF/include/wrapper/cef_zip_archive.h",
+        "CEF/win32/debug/VS2019/libcef_dll_wrapper.lib",
+        "CEF/win32/debug/VS2019/libcef_dll_wrapper.pdb",
+        "CEF/win32/debug/libcef.lib",
+        "CEF/win32/release/VS2019/libcef_dll_wrapper.lib",
+        "CEF/win32/release/VS2019/libcef_dll_wrapper.pdb",
+        "CEF/win32/release/libcef.lib",
+        "CEF/x64/debug/VS2019/libcef_dll_wrapper.lib",
+        "CEF/x64/debug/VS2019/libcef_dll_wrapper.pdb",
+        "CEF/x64/debug/libcef.lib",
+        "CEF/x64/release/VS2019/libcef_dll_wrapper.lib",
+        "CEF/x64/release/VS2019/libcef_dll_wrapper.pdb",
+        "CEF/x64/release/libcef.lib",
+        "build/cef.sdk.props",
+        "cef.sdk.106.0.29.nupkg.sha512",
+        "cef.sdk.nuspec"
+      ]
+    },
+    "Cronos/0.7.1": {
+      "sha512": "aa2DY3qGBnwX7/jW4c17PyRlIeAtc5nYTlAPekc0113jcbBuz9vQkQaQ9NG+TNGlAj4esFxh8OuKUv4vmAODbw==",
+      "type": "package",
+      "path": "cronos/0.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cronos.0.7.1.nupkg.sha512",
+        "cronos.nuspec",
+        "lib/net40/Cronos.dll",
+        "lib/net40/Cronos.xml",
+        "lib/net45/Cronos.dll",
+        "lib/net45/Cronos.xml",
+        "lib/netstandard1.0/Cronos.dll",
+        "lib/netstandard1.0/Cronos.xml",
+        "lib/netstandard2.0/Cronos.dll",
+        "lib/netstandard2.0/Cronos.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.10": {
+      "sha512": "4SBTyAuYHSiFi/AiqlKiKpl2+EkKaS/q1zeDI4L88cMmy5P01pse25gOAyzfWycI8voz+d1FwTIuqhWCH87IJQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.WebUtilities/2.2.0": {
+      "sha512": "9ErxAAKaDzxXASB/b5uLEkLgUWv1QbeVxyJYEHQwMaxXOeFFVkQxiq8RyfVcifLU7NR0QY0p3acqx4ZpYfhHDg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.webutilities/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.xml",
+        "microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.webutilities.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+      "sha512": "1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "type": "package",
+      "path": "microsoft.csharp/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.1": {
+      "sha512": "vWXPg3HJQIpZkENn1KWq8SfbqVujVD7S7vIAyFXXqK5xkf1Vho+vG0bLBCHxU36lD1cLLtmGpfYf0B3MYFi9tQ==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging/2.0.2": {
+      "sha512": "yWnhg6DXApp14wxbODmSfCKv2fEZmxdEPYINXv73jtdIxw3wORIdLG2LniCNIcGMn4V/6CwZcTlq82wHhnZYOA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
+        "microsoft.extensions.logging.2.0.2.nupkg.sha512",
+        "microsoft.extensions.logging.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.0.2": {
+      "sha512": "xH49DgYQWwxB4r18Yc3SyYCXXrFpcLnVfxJlp4WktMfYHtNRbqd2Phdf6XQ0G91whVlKb2XZsOAY6be2AMWE+g==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.2.0.2.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/2.0.2": {
+      "sha512": "LnDPWzNWaMG3LusEXVCfODBcsCb2LpZ1xaUSojMXj4jhQkTJ7uDQH9dhkN4isJZSKeT5lXtW9s2hUY2S9F5E9Q==",
+      "type": "package",
+      "path": "microsoft.extensions.options/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.2.0.2.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/2.2.0": {
+      "sha512": "azyQtqbm4fSaDzZHD/J+V6oWMFaf2tWP4WEGIYePLCMw3+b2RQdj9ybgbQyjCshcitQKQ4lEDOZjmSlTTrHxUg==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/6.10.0": {
+      "sha512": "0qjS31rN1MQTc46tAYbzmMTSRfdV5ndZxSjYxIGqKSidd4wpNJfNII/pdhU5Fx8olarQoKL9lqqYw4yNOIwT0Q==",
+      "type": "package",
+      "path": "microsoft.identitymodel.jsonwebtokens/6.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net45/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net472/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/6.10.0": {
+      "sha512": "zbcwV6esnNzhZZ/VP87dji6VrUBLB5rxnZBkDMqNYpyG+nrBnBsbm4PUYLCBMUflHCM9EMLDG0rLnqqT+l0ldA==",
+      "type": "package",
+      "path": "microsoft.identitymodel.logging/6.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Logging.dll",
+        "lib/net45/Microsoft.IdentityModel.Logging.xml",
+        "lib/net461/Microsoft.IdentityModel.Logging.dll",
+        "lib/net461/Microsoft.IdentityModel.Logging.xml",
+        "lib/net472/Microsoft.IdentityModel.Logging.dll",
+        "lib/net472/Microsoft.IdentityModel.Logging.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Logging.xml",
+        "microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
+        "microsoft.identitymodel.logging.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Protocols/6.10.0": {
+      "sha512": "DFyXD0xylP+DknCT3hzJ7q/Q5qRNu0hO/gCU90O0ATdR0twZmlcuY9RNYaaDofXKVbzcShYNCFCGle2G/o8mkg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.protocols/6.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net45/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net461/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net461/Microsoft.IdentityModel.Protocols.xml",
+        "lib/net472/Microsoft.IdentityModel.Protocols.dll",
+        "lib/net472/Microsoft.IdentityModel.Protocols.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.xml",
+        "microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+        "microsoft.identitymodel.protocols.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.10.0": {
+      "sha512": "LVvMXAWPbPeEWTylDrxunlHH2wFyE4Mv0L4gZrJHC4HTESbWHquKZb/y/S8jgiQEDycOP0PDQvbG4RR/tr2TVQ==",
+      "type": "package",
+      "path": "microsoft.identitymodel.protocols.openidconnect/6.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net45/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net461/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/net472/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/net472/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.xml",
+        "microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+        "microsoft.identitymodel.protocols.openidconnect.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Tokens/6.10.0": {
+      "sha512": "qbf1NslutDB4oLrriYTJpy7oB1pbh2ej2lEHd2IPDQH9C74ysOdhU5wAC7KoXblldbo7YsNR2QYFOqQM/b0Rsg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.tokens/6.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net45/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net461/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net461/Microsoft.IdentityModel.Tokens.xml",
+        "lib/net472/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net472/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.xml",
+        "microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
+        "microsoft.identitymodel.tokens.nuspec"
+      ]
+    },
+    "Microsoft.Net.Http.Headers/2.2.0": {
+      "sha512": "iZNkjYqlo8sIOI0bQfpsSoMTmB/kyvmV2h225ihyZT33aTp48ZpF6qYnXxzSXmHt8DpBAwBTX+1s1UFLbYfZKg==",
+      "type": "package",
+      "path": "microsoft.net.http.headers/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll",
+        "lib/netstandard2.0/Microsoft.Net.Http.Headers.xml",
+        "microsoft.net.http.headers.2.2.0.nupkg.sha512",
+        "microsoft.net.http.headers.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "PuppeteerSharp/8.0.0": {
+      "sha512": "UzYsY+p8kWbCycYFsvrppIHlEITDG7bjoiSD5VIouv0uzy2vDSdUzUCp2tXgV5QmWRKzqafTo8uGGEn16D0RMQ==",
+      "type": "package",
+      "path": "puppeteersharp/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PuppeteerSharp.dll",
+        "lib/netstandard2.0/PuppeteerSharp.xml",
+        "puppeteersharp.8.0.0.nupkg.sha512",
+        "puppeteersharp.nuspec"
+      ]
+    },
+    "SharpZipLib/1.3.3": {
+      "sha512": "N8+hwhsKZm25tDJfWpBSW7EGhH/R7EMuiX+KJ4C4u+fCWVc1lJ5zg1u3S1RPPVYgTqhx/C3hxrqUpi6RwK5+Tg==",
+      "type": "package",
+      "path": "sharpziplib/1.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/sharpziplib-nuget-256x256.png",
+        "lib/net45/ICSharpCode.SharpZipLib.dll",
+        "lib/net45/ICSharpCode.SharpZipLib.pdb",
+        "lib/net45/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.3.3.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    },
+    "System.Buffers/4.5.0": {
+      "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
+      "type": "package",
+      "path": "system.buffers/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.IdentityModel.Tokens.Jwt/6.10.0": {
+      "sha512": "C+Q5ORsFycRkRuvy/Xd0Pv5xVpmWSAvQYZAGs7VQogmkqlLhvfZXTgBIlHqC3cxkstSoLJAYx6xZB7foQ2y5eg==",
+      "type": "package",
+      "path": "system.identitymodel.tokens.jwt/6.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net45/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net472/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
+        "system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    },
+    "System.Memory/4.5.1": {
+      "sha512": "sDJYJpGtTgx+23Ayu5euxG5mAXWdkDb4+b0rD0Cab0M1oQS9H0HXGPriKcqpXuiJDTV7fTp/d+fMDJmnr6sNvA==",
+      "type": "package",
+      "path": "system.memory/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "ref/netstandard1.1/System.Memory.dll",
+        "ref/netstandard1.1/System.Memory.xml",
+        "ref/netstandard2.0/System.Memory.dll",
+        "ref/netstandard2.0/System.Memory.xml",
+        "system.memory.4.5.1.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Cryptography.Cng/4.5.0": {
+      "sha512": "WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
+      "type": "package",
+      "path": "system.security.cryptography.cng/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.Cng.dll",
+        "lib/net461/System.Security.Cryptography.Cng.dll",
+        "lib/net462/System.Security.Cryptography.Cng.dll",
+        "lib/net47/System.Security.Cryptography.Cng.dll",
+        "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.Cng.dll",
+        "lib/netstandard1.4/System.Security.Cryptography.Cng.dll",
+        "lib/netstandard1.6/System.Security.Cryptography.Cng.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.Cng.dll",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.Cng.dll",
+        "ref/net461/System.Security.Cryptography.Cng.dll",
+        "ref/net461/System.Security.Cryptography.Cng.xml",
+        "ref/net462/System.Security.Cryptography.Cng.dll",
+        "ref/net462/System.Security.Cryptography.Cng.xml",
+        "ref/net47/System.Security.Cryptography.Cng.dll",
+        "ref/net47/System.Security.Cryptography.Cng.xml",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Cng.dll",
+        "ref/netcoreapp2.0/System.Security.Cryptography.Cng.xml",
+        "ref/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
+        "ref/netcoreapp2.1/System.Security.Cryptography.Cng.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.Cng.dll",
+        "ref/netstandard1.4/System.Security.Cryptography.Cng.dll",
+        "ref/netstandard1.6/System.Security.Cryptography.Cng.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.Cng.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.Cng.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/net462/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/net47/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/netstandard1.4/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.cryptography.cng.4.5.0.nupkg.sha512",
+        "system.security.cryptography.cng.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "sha512": "Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "type": "package",
+      "path": "system.text.encodings.web/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Text.Encodings.Web.dll",
+        "lib/net461/System.Text.Encodings.Web.xml",
+        "lib/net6.0/System.Text.Encodings.Web.dll",
+        "lib/net6.0/System.Text.Encodings.Web.xml",
+        "lib/netcoreapp3.1/System.Text.Encodings.Web.dll",
+        "lib/netcoreapp3.1/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.6.0.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Cronos >= 0.7.1",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.10",
+      "Microsoft.Extensions.DependencyInjection >= 6.0.1",
+      "PuppeteerSharp >= 8.0.0",
+      "cef.sdk >= 106.0.29"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Администратор\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Администратор\\source\\repos\\WebConverter\\WebConverter\\WebConverter.csproj",
+      "projectName": "WebConverter",
+      "projectPath": "C:\\Users\\Администратор\\source\\repos\\WebConverter\\WebConverter\\WebConverter.csproj",
+      "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Администратор\\source\\repos\\WebConverter\\WebConverter\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Cronos": {
+            "target": "Package",
+            "version": "[0.7.1, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[6.0.10, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
+          "PuppeteerSharp": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "cef.sdk": {
+            "target": "Package",
+            "version": "[106.0.29, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
